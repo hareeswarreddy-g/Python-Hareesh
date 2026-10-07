@@ -1,3 +1,4 @@
+# In python its not compiler its interpretur
 #print
 print('My name is Hareesh..')
 print("same")
@@ -37,7 +38,7 @@ print(bool)
 # It always returns a string, so if you want to take a number as input, you need to typecast it to int or float.
 
 name=input("Enter your name:")
-age=input("What's your age: ")
+age=int(input("What's your age: "))
 print(f"Hello {name}!")
 print(f"And my age is also", age)
 name = input("What's your name? ").strip().title()
